@@ -10,6 +10,10 @@ Bootstrap theme with UNINETT look.
 * [H-K Reklamebyrå](http://h-k.no)
 
 
+## Adding fonts
+
+Fill the fonts folder with the Colfax font.
+
 ## Licence
 
 
@@ -17,5 +21,5 @@ Bootstrap theme with UNINETT look.
 
 DO NOT USE WITHOUT EXPLICIT PERMISSION FROM UNINETT AS.
 
-The Colfax fonts are licenced separately
+The Colfax fonts are required but not included in this repo, and are licenced separately
 
