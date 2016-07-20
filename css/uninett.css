@@ -1026,12 +1026,6 @@ dt {
 
 }
 
-:target:before {
-	content:"";
-	display:block;
-	height:70px;
-	margin-top:-70px;
-}
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
