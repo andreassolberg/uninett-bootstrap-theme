@@ -5,7 +5,7 @@
 	     url('../fonts/colfaxThin.woff') format('woff'),
 	     url('../fonts/colfaxThin.ttf') format('truetype'),
 	     url('../fonts/colfaxThin.svg#webfont') format('svg');
-} 
+}
 
 @font-face{
 	font-family: 'colfaxLight';
@@ -155,7 +155,6 @@ input[type="search"] {
 .navbar {
 	min-height: 70px;
 	border: 0px;
-
 }
 
 .navbar-default {
