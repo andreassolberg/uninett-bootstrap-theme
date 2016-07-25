@@ -89,6 +89,10 @@ h2, .h2 {
 	font-size: 36px;
 }
 
+.nav {
+	padding-top:17px;
+}
+
 .lead {
 	margin-bottom: 20px;
 	font-size: 24px;
@@ -155,6 +159,7 @@ input[type="search"] {
 .navbar {
 	min-height: 70px;
 	border: 0px;
+	padding:0;
 }
 
 .navbar-default {
@@ -173,8 +178,8 @@ input[type="search"] {
 
 .navbar-nav {
 
-	margin-top: 17px;
-	float: none;
+	/*margin-top: 17px;*/
+	float: left;
 
 }
 
@@ -185,8 +190,8 @@ input[type="search"] {
 	font-family: 'colfaxRegular', Arial, sans-serif;
 	font-size: 15px;
 	color: #666464;
-	padding-left: 25px;
-	padding-right: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
 	padding-top: 13px;
 	padding-bottom: 9px;
 
@@ -209,9 +214,8 @@ input[type="search"] {
 }
 
 .uninett-menu-search {
-
-	margin-top: 6px;
-
+    /* margin-top: 6px; */
+    width: 160px !important;
 }
 
 .navbar-form-uninett {
@@ -222,7 +226,7 @@ input[type="search"] {
 	border-bottom: 0px solid transparent;
 	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1),0 1px 0 rgba(255, 255, 255, 0.1);
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1),0 1px 0 rgba(255, 255, 255, 0.1);
-	margin-top: 0px;
+	margin-top: 16px;
 	margin-bottom: 0px;
 }
 
@@ -299,6 +303,15 @@ input[type="search"] {
 
 }
 
+.dropdown-item:hover {
+	background-color:initial;
+}
+
+.dropdown-item a {
+	display:block;
+	text-decoration: none;
+}
+
 .navbar-default .navbar-nav > .open > a .caret, .navbar-default .navbar-nav > .open > a:hover .caret, .navbar-default .navbar-nav > .open > a:focus .caret {
 	border-top-color: #eb212e;
 	border-bottom-color: #eb212e;
@@ -306,8 +319,12 @@ input[type="search"] {
 
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
 	background-color: #eb212e;
+	color:white;
 }
 
+.dropdown-item.active, .dropdown-item.active:focus, .dropdown-item.active:hover{
+	background-color: #eb212e;
+}
 
 .jumbotron {
 	margin-bottom: 0px;
@@ -737,9 +754,9 @@ button.glyphicon_search_menu{
 
 
 .uninett-login-btn {
-	margin-right: 0px;
-	margin-top: 6px;
-	margin-left: 14px;
+    margin-right: 0px;
+    margin-left: 16px;
+    font-size: 0.9rem;
 }
 
 
@@ -767,8 +784,15 @@ dt {
 	font-weight: normal;
 }
 
+.navbar-toggler {
+	float: right;
+	font-size: 1.5rem;
+	margin-top: 15px;
+}
 
-
+.navbar-toggler:hover {
+  background-color: #eeebe8;
+}
 
 
 @media (min-width: 768px) {
@@ -780,19 +804,21 @@ dt {
 
 }
 
+@media (min-width: 544px){
+	.jumbotron {
+	    padding: 4rem 4rem;
+	}
+}
 @media (max-width: 990px) and (min-width: 768px) {
 
 	.navbar-nav {
 
-		margin-top: 16px;
+		/*margin-top: 16px;*/
 
 	}
 
 
-	.uninett-login-btn {
-		margin-right: 0px;
-		margin-left: 16px;
-	}
+
 
 	.navbar > .container .navbar-brand {
 		margin-left: -13px;
