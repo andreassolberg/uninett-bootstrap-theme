@@ -939,7 +939,7 @@ dt {
     left: 175px;
     /* margin-left: -29px; */
     position: relative;
-    font-size: 18px;
+    font-size: 18px; 
 	}
 
 	.navbar-toggleable-md {
