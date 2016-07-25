@@ -190,8 +190,8 @@ input[type="search"] {
 	font-family: 'colfaxRegular', Arial, sans-serif;
 	font-size: 15px;
 	color: #666464;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 	padding-top: 13px;
 	padding-bottom: 9px;
 
@@ -215,7 +215,7 @@ input[type="search"] {
 
 .uninett-menu-search {
     /* margin-top: 6px; */
-    width: 160px !important;
+    width: 155px !important;
 }
 
 .navbar-form-uninett {
@@ -554,7 +554,7 @@ input[type="search"] {
 	opacity: 1;
 }
 
-button.glyphicon_search_menu{
+button.uninett-search-button{
 	border:none;
 	background:none;
 }
@@ -570,7 +570,7 @@ button.glyphicon_search_menu{
 	background-color: #337db1;
 }
 
-.glyphicon_search_menu {
+.uninett-search-button {
 	top: 14px;
 	margin-left: -33px;
 	margin-top: -2px;
@@ -754,8 +754,8 @@ button.glyphicon_search_menu{
 
 
 .uninett-login-btn {
-    margin-right: 0px;
-    margin-left: 16px;
+    margin-right: 10px;
+    margin-left: 9px;
     font-size: 0.9rem;
 }
 
@@ -810,11 +810,11 @@ dt {
 	}
 }
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
 	.container {
 	    max-width: 1000px;
 	}
-}
+}*/
 
 @media (max-width: 991px) {
 	.nav-content {
@@ -834,6 +834,21 @@ dt {
 		margin-left:1rem;
 	}
 }
+
+@media (min-width: 992px) {
+	.container {
+	    /*width: 960px;*/
+			width:960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+	    width: 1160px;
+	}
+}
+
+
 
 @media (max-width: 990px) and (min-width: 768px) {
 
@@ -898,7 +913,7 @@ dt {
 		margin-top: 6px;
 	}
 
-	.glyphicon_search_menu {
+	.uninett-search-button {
 		top: 5px;
     position: relative;
     margin-left: -35px;
@@ -1077,7 +1092,7 @@ dt {
 
 	}
 
-	.glyphicon_search_menu {
+	.uninett-search-button {
 		top: 13px;
 		margin-left: -29px;
 		font-size: 18px;
