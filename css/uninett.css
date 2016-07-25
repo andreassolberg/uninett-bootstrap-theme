@@ -809,6 +809,32 @@ dt {
 	    padding: 4rem 4rem;
 	}
 }
+
+@media (min-width: 992px) {
+	.container {
+	    max-width: 1000px;
+	}
+}
+
+@media (max-width: 991px) {
+	.nav-content {
+		float:left;
+	}
+
+	.navbar-nav {
+		margin-bottom: 30px;
+		width:150px;
+	}
+
+	.navbar-form-uninett{
+		float:right;
+	}
+
+	.nav-item {
+		margin-left:1rem;
+	}
+}
+
 @media (max-width: 990px) and (min-width: 768px) {
 
 	.navbar-nav {
@@ -873,9 +899,10 @@ dt {
 	}
 
 	.glyphicon_search_menu {
-		top: 12px;
-		margin-left: -24px;
-		font-size: 16px;
+		top: 5px;
+    position: relative;
+    margin-left: -35px;
+    font-size: 16px;
 	}
 
 	.department {
@@ -887,8 +914,6 @@ dt {
 		padding-top: 15px;
 
 	}
-
-
 
 
 }
@@ -904,17 +929,32 @@ dt {
 
 	}
 
+	.navbar-toggler {
+		margin-top: 5px;
+	}
+
 	.navbar {
 		min-height: 50px;
 
 
 	}
 
-	.navbar-nav {
-		margin-bottom: 30px;
-
+	.nav-content {
+		float:left;
 	}
 
+	.navbar-nav {
+		margin-bottom: 30px;
+		width:150px;
+	}
+
+	.navbar-form-uninett{
+		float:right;
+	}
+
+	.nav-item {
+		margin-left:1rem;
+	}
 
 	.navbar img {
 		max-width: 100%;
