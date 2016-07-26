@@ -1,351 +1,354 @@
 <!DOCTYPE html>
-<!-- saved from url=(0030)http://mal.uninett.no/div.html -->
-<html lang="en"><script type="text/javascript" src="chrome-extension://kajfghlhfkcocafkcjlajldicbikpgnp/catcher.js"><!-- script injected by Request Maker --></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<link rel="shortcut icon" href="http://mal.uninett.no/uninett-theme/ico/favicon.ico">
-	<title>UNINETT - Bootstrap</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="shortcut icon" href="ico/favicon.ico">
+		<title>UNINETT - Bootstrap</title>
 
-	<!-- Bootstrap core CSS -->
-	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Bootstrap core CSS -->
+		<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-	<!-- Custom styles for this template -->
-	<link href="css/uninett.css" rel="stylesheet">
-	<link href="css/font-awesome.min.css" rel="stylesheet">
-	<script src="https://code.jquery.com/jquery-2.2.4.min.js" type="text/javascript"></script>
+		<!-- Custom styles for this template -->
+		<link href="css/uninett.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" type="text/javascript"></script>
 
 
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-				<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-				<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-			<![endif]-->
-<style id="holderjs-style" type="text/css"></style></head>
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
 
-<body class="navbar-site">
+	</head>
 
-	<!-- Fixed navbar -->
-	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<body class="navbar-site">
+
+		<!-- Fixed navbar -->
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<a class="navbar-brand" href="index.html#"><img src="./UNINETT - Bootstrap_files/UNINETT_logo.svg" alt="Uninett logo" type="image/svg+xml"></a>
+				<div class="department">Bootstrap</div>
+				<button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+			    &#9776;
+			  </button>
+				<div class="collapse navbar-toggleable-md row" id="exCollapsingNavbar2">
+					<ul class="nav navbar-nav">
+						<li class="nav-item"><a class="nav-link" href="index.html">Forsiden</a></li>
+						<li class="nav-item"><a class="nav-link" href="artikkel.html">Artikkel</a></li>
+						<li class="nav-item dropdown">
+							<a href="index.html#" class="dropdown-toggle nav-link" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li class="dropdown-item active"><a href="div.html">Div</a></li>
+								<li class="dropdown-item"><a href="404.html">404</a></li>
+								<li class="dropdown-item"><a href="resultat.html">Søk/listevisning</a></li>
+								<li class="dropdown-divider"></li>
+								<li class="dropdown-header">Nav header</li>
+								<li class="dropdown-item"><a href="index.html#">Separated link</a></li>
+								<li class="dropdown-item"><a href="index.html#">One more separated link</a></li>
+							</ul>
+						</li>
+					</ul>
+					<form class="form-inline pull-xs-right navbar-form-uninett" role="search">
+						<input type="search" class="form-control uninett-menu-search" name="search_input" placeholder="Søk">
+						<button class="uninett-search-button uninett-fontColor-grey" type="submit" value="test"><i class="fa fa-search" aria-hidden="true"></i></button>
+						<button type="button" class="btn btn-default uninett-login-btn" data-toggle="modal" data-target="#myModal"><i class="fa fa-user uninett-fontColor-red" aria-hidden="true"></i> Logg inn</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+
 		<div class="container">
-			<a class="navbar-brand" href="index.html#"><img src="./UNINETT - Bootstrap_files/UNINETT_logo.svg" alt="Uninett logo" type="image/svg+xml"></a>
-			<div class="department">Bootstrap</div>
-			<button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
-		    &#9776;
-		  </button>
-			<div class="collapse navbar-toggleable-md row" id="exCollapsingNavbar2">
-				<ul class="nav navbar-nav">
-					<li class="nav-item"><a class="nav-link" href="index.html">Forsiden</a></li>
-					<li class="nav-item"><a class="nav-link" href="artikkel.html">Artikkel</a></li>
-					<li class="nav-item dropdown">
-						<a href="index.html#" class="dropdown-toggle nav-link" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li class="dropdown-item active"><a href="div.html">Div</a></li>
-							<li class="dropdown-item"><a href="404.html">404</a></li>
-							<li class="dropdown-item"><a href="resultat.html">Søk/listevisning</a></li>
-							<li class="dropdown-divider"></li>
-							<li class="dropdown-header">Nav header</li>
-							<li class="dropdown-item"><a href="index.html#">Separated link</a></li>
-							<li class="dropdown-item"><a href="index.html#">One more separated link</a></li>
-						</ul>
-					</li>
-				</ul>
-				<form class="form-inline pull-xs-right navbar-form-uninett" role="search">
-					<input type="search" class="form-control uninett-menu-search" name="search_input" placeholder="Søk">
-					<button class="uninett-search-button uninett-fontColor-grey" type="submit" value="test"><i class="fa fa-search" aria-hidden="true"></i></button>
-					<button type="button" class="btn btn-default uninett-login-btn" data-toggle="modal" data-target="#myModal"><i class="fa fa-user uninett-fontColor-red" aria-hidden="true"></i> Logg inn</button>
-				</form>
-			</div>
-		</div>
-	</nav>
 
-	<div class="container">
-
-		<div class="row">
-			<div class="col-lg-12">
-				<!-- Main component for a primary marketing message or call to action -->
-				<div class="jumbotron uninett-color-lightBlue">
-					<h1>UNINETT Bootstrap webmal</h1>
-					<p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-					<p>&nbsp;</p>
-					<p> <a class="btn btn-lg btn-primary" href="http://mal.uninett.no/div.html#" role="button">Dette er en knapp »</a> </p>
-				</div>
-			</div>
-		</div>
-
-		<!-- Example row of columns -->
-		<div class="row">
-
-			<div class="col-lg-4">
-				<div class="uninett-color-white uninett-padded gutter">
-					<h2>API Authorization as a Service</h2>
-					<p>Authentication and authorization with APIs are slightly more complex than with traditional access to web sites. The client is typically more intelligent, it being a javascript web application or a mobile native app; and communicates with a backend using an API. </p>
-					<p>&nbsp;</p>
-					<p><a class="btn btn-default" href="http://mal.uninett.no/div.html#" role="button"><i class="fa fa-cloud-download" aria-hidden="true"></i> Last ned</a></p>
-				</div>
-			</div>
-
-			<div class="col-lg-4">
-				<div class="uninett-color-white uninett-padded gutter">
-					<h2>UNINETT WebApp Park Architecture</h2>
-					<p>I’ve spent a few months working on a prototype of UNINETT WebApp Park. The UNINETT WebApp Park is a simple, scalable, efficient and secure ecosystem for rapid development of modern web applications for higher education. I’ve created a 20 minutes walk-through video of the prototype. This is just the beginning, and I’ve got a bunch of ideas of further work on the platform. If you take the time to watch it, I really appreciate it, thanks!</p>
-					<p>&nbsp;</p>
-					<p><a class="btn btn-default" href="http://mal.uninett.no/div.html#" role="button">View details »</a></p>
-				</div>
-			</div>
-
-			<div class="col-lg-4">
-				<div class="uninett-color-white uninett-padded gutter">
-					<h2>Announcing New Sparkling SAML 2.0 Debugger</h2>
-					<p>I’ve done a rewrite of the old webbased SAML 2.0 debugger, which will help you to decode the various SAML bindings for easier debugging SAML messages.</p>
-					<p>&nbsp;</p>
-					<p><a class="btn btn-default" href="http://mal.uninett.no/div.html#" role="button">View details »</a></p>
-				</div>
-			</div>
-
-		</div>
-
-
-		<!-- Example row of columns -->
-		<div class="row">
-
-			<div class="col-lg-8 col-md-8">
-				<div class="uninett-color-lightGreen uninett-padded gutter">
-					<h2 class="uninett-fontColor-white">Announcing online JWT Debugger tool</h2>
-					<p class="uninett-fontColor-white">JSON Web Token (JWT) is a really nice IETF spec for encoding, signing and encrypting a set of claims using JSON. JWT is a standalone spec that is already used several places, but is also an essential part of the emerging OpenID Connect.</p>
-					<p>&nbsp;</p>
-					<p><a class="btn btn-default" href="http://mal.uninett.no/div.html#" role="button">View details »</a></p>
-				</div>
-			</div>
-
-
-			<div class="col-lg-4 col-md-4">
-				<div class="uninett-color-white uninett-padded gutter">
-					<h2>Using JSO with Phonegap and ChildBrowser <span class="label label-success">NY</span></h2>
-					<p>Using JSO to perform OAuth 2.0 authorization in WebApps running on mobile devices in hybrid environment is an important deployment scenario for JSO.</p>
-					<p>Here is a <strong>detailed</strong> instruction on setting up JSO with Phonegap for iOS and configure OAuth 2.0 with Google. You may use it with Facebook or other OAuth providers as well.</p>
-					<p>&nbsp;</p>
-					<p><a class="btn btn-default" href="http://mal.uninett.no/div.html#" role="button"><i class="fa fa-star" aria-hidden="true"></i> View details</a></p>
-				</div>
-			</div>
-
-		</div>
-
-
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="uninett-color-white uninett-padded gutter">
-
-						<!-- Standard button -->
-						<button type="button" class="btn btn-default">Default</button>
-
-						<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-						<button type="button" class="btn btn-primary">Primary</button>
-
-						<!-- Indicates a successful or positive action -->
-						<button type="button" class="btn btn-success">Success</button>
-
-						<!-- Contextual button for informational alert messages -->
-						<button type="button" class="btn btn-info">Info</button>
-
-						<!-- Indicates caution should be taken with this action -->
-						<button type="button" class="btn btn-warning">Warning</button>
-
-						<!-- Indicates a dangerous or potentially negative action -->
-						<button type="button" class="btn btn-danger">Danger</button>
-
-						<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
-						<button type="button" class="btn btn-link">Link</button>
-
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-lg-4">
-			<div class="uninett-color-white uninett-padded gutter">
-
-							<div class="btn-group">
-									<button type="button" class="btn btn-default">1</button>
-									<button type="button" class="btn btn-default">2</button>
-									<button type="button" class="btn btn-default">3</button>
-									<button type="button" class="btn btn-default">4</button>
-							</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<!-- Main component for a primary marketing message or call to action -->
+					<div class="jumbotron uninett-color-lightBlue">
+						<h1>UNINETT Bootstrap webmal</h1>
+						<p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+						<p>&nbsp;</p>
+						<p> <a class="btn btn-lg btn-primary" href="http://mal.uninett.no/div.html#" role="button">Dette er en knapp »</a> </p>
 					</div>
+				</div>
 			</div>
 
-		<div class="col-lg-4">
-			<div class="uninett-color-white uninett-padded gutter">
+			<!-- Example row of columns -->
+			<div class="row">
 
-							<ul class="pagination">
-								<li><a href="http://mal.uninett.no/div.html#">«</a></li>
-								<li class="active"><a href="http://mal.uninett.no/div.html#">1 <span class="sr-only">(current)</span></a></li>
-								<li><a href="http://mal.uninett.no/div.html#">2</a></li>
-								<li><a href="http://mal.uninett.no/div.html#">3</a></li>
-								<li><a href="http://mal.uninett.no/div.html#">4</a></li>
-								<li><a href="http://mal.uninett.no/div.html#">5</a></li>
-								<li><a href="http://mal.uninett.no/div.html#">»</a></li>
-							</ul>
+				<div class="col-lg-4">
+					<div class="uninett-color-white uninett-padded gutter">
+						<h2>API Authorization as a Service</h2>
+						<p>Authentication and authorization with APIs are slightly more complex than with traditional access to web sites. The client is typically more intelligent, it being a javascript web application or a mobile native app; and communicates with a backend using an API. </p>
+						<p>&nbsp;</p>
+						<p><a class="btn btn-default" href="http://mal.uninett.no/div.html#" role="button"><i class="fa fa-cloud-download" aria-hidden="true"></i> Last ned</a></p>
+					</div>
+				</div>
+
+				<div class="col-lg-4">
+					<div class="uninett-color-white uninett-padded gutter">
+						<h2>UNINETT WebApp Park Architecture</h2>
+						<p>I’ve spent a few months working on a prototype of UNINETT WebApp Park. The UNINETT WebApp Park is a simple, scalable, efficient and secure ecosystem for rapid development of modern web applications for higher education. I’ve created a 20 minutes walk-through video of the prototype. This is just the beginning, and I’ve got a bunch of ideas of further work on the platform. If you take the time to watch it, I really appreciate it, thanks!</p>
+						<p>&nbsp;</p>
+						<p><a class="btn btn-default" href="http://mal.uninett.no/div.html#" role="button">View details »</a></p>
+					</div>
+				</div>
+
+				<div class="col-lg-4">
+					<div class="uninett-color-white uninett-padded gutter">
+						<h2>Announcing New Sparkling SAML 2.0 Debugger</h2>
+						<p>I’ve done a rewrite of the old webbased SAML 2.0 debugger, which will help you to decode the various SAML bindings for easier debugging SAML messages.</p>
+						<p>&nbsp;</p>
+						<p><a class="btn btn-default" href="http://mal.uninett.no/div.html#" role="button">View details »</a></p>
+					</div>
+				</div>
+
+			</div>
+
+
+			<!-- Example row of columns -->
+			<div class="row">
+
+				<div class="col-lg-8 col-md-8">
+					<div class="uninett-color-lightGreen uninett-padded gutter">
+						<h2 class="uninett-fontColor-white">Announcing online JWT Debugger tool</h2>
+						<p class="uninett-fontColor-white">JSON Web Token (JWT) is a really nice IETF spec for encoding, signing and encrypting a set of claims using JSON. JWT is a standalone spec that is already used several places, but is also an essential part of the emerging OpenID Connect.</p>
+						<p>&nbsp;</p>
+						<p><a class="btn btn-default" href="http://mal.uninett.no/div.html#" role="button">View details »</a></p>
+					</div>
+				</div>
+
+
+				<div class="col-lg-4 col-md-4">
+					<div class="uninett-color-white uninett-padded gutter">
+						<h2>Using JSO with Phonegap and ChildBrowser <span class="label label-success">NY</span></h2>
+						<p>Using JSO to perform OAuth 2.0 authorization in WebApps running on mobile devices in hybrid environment is an important deployment scenario for JSO.</p>
+						<p>Here is a <strong>detailed</strong> instruction on setting up JSO with Phonegap for iOS and configure OAuth 2.0 with Google. You may use it with Facebook or other OAuth providers as well.</p>
+						<p>&nbsp;</p>
+						<p><a class="btn btn-default" href="http://mal.uninett.no/div.html#" role="button"><i class="fa fa-star" aria-hidden="true"></i> View details</a></p>
+					</div>
+				</div>
+
+			</div>
+
+
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="uninett-color-white uninett-padded gutter">
+
+							<!-- Standard button -->
+							<button type="button" class="btn btn-default">Default</button>
+
+							<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+							<button type="button" class="btn btn-primary">Primary</button>
+
+							<!-- Indicates a successful or positive action -->
+							<button type="button" class="btn btn-success">Success</button>
+
+							<!-- Contextual button for informational alert messages -->
+							<button type="button" class="btn btn-info">Info</button>
+
+							<!-- Indicates caution should be taken with this action -->
+							<button type="button" class="btn btn-warning">Warning</button>
+
+							<!-- Indicates a dangerous or potentially negative action -->
+							<button type="button" class="btn btn-danger">Danger</button>
+
+							<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+							<button type="button" class="btn btn-link">Link</button>
 
 					</div>
+				</div>
 			</div>
 
-		<div class="col-lg-4">
-			<div class="uninett-color-white uninett-padded gutter">
+			<div class="row">
+				<div class="col-lg-4">
+				<div class="uninett-color-white uninett-padded gutter">
 
-							<div class="input-group">
-									<span class="input-group-addon">$</span>
-									<input type="text" class="form-control">
-									<span class="input-group-addon">.00</span>
-							</div>
+								<div class="btn-group">
+										<button type="button" class="btn btn-default">1</button>
+										<button type="button" class="btn btn-default">2</button>
+										<button type="button" class="btn btn-default">3</button>
+										<button type="button" class="btn btn-default">4</button>
+								</div>
+						</div>
+				</div>
 
-					</div>
+			<div class="col-lg-4">
+				<div class="uninett-color-white uninett-padded gutter">
+
+								<ul class="pagination">
+									<li><a href="http://mal.uninett.no/div.html#">«</a></li>
+									<li class="active"><a href="http://mal.uninett.no/div.html#">1 <span class="sr-only">(current)</span></a></li>
+									<li><a href="http://mal.uninett.no/div.html#">2</a></li>
+									<li><a href="http://mal.uninett.no/div.html#">3</a></li>
+									<li><a href="http://mal.uninett.no/div.html#">4</a></li>
+									<li><a href="http://mal.uninett.no/div.html#">5</a></li>
+									<li><a href="http://mal.uninett.no/div.html#">»</a></li>
+								</ul>
+
+						</div>
+				</div>
+
+			<div class="col-lg-4">
+				<div class="uninett-color-white uninett-padded gutter">
+
+								<div class="input-group">
+										<span class="input-group-addon">$</span>
+										<input type="text" class="form-control">
+										<span class="input-group-addon">.00</span>
+								</div>
+
+						</div>
+				</div>
+
 			</div>
 
-		</div>
+
+			<div class="row">
+				<div class="col-lg-12">
+				<div class="uninett-color-white uninett-padded gutter">
+								<ul class="nav nav-tabs">
+										<li><a href="http://mal.uninett.no/div.html#">Home</a></li>
+										<li class="active"><a href="http://mal.uninett.no/div.html#">Profile</a></li>
+										<li><a href="http://mal.uninett.no/div.html#">Messages</a></li>
+								</ul>
+						</div>
+				</div>
+
+			</div>
 
 
-		<div class="row">
-			<div class="col-lg-12">
-			<div class="uninett-color-white uninett-padded gutter">
-							<ul class="nav nav-tabs">
-									<li><a href="http://mal.uninett.no/div.html#">Home</a></li>
-									<li class="active"><a href="http://mal.uninett.no/div.html#">Profile</a></li>
+			<div class="row">
+				<div class="col-lg-12">
+				<div class="uninett-color-white uninett-padded gutter">
+								<ul class="nav nav-pills nav-justified">
+
+									<li class="active"><a href="http://mal.uninett.no/div.html#">Inbox <span class="badge">42</span></a></li>
+									<li><a href="http://mal.uninett.no/div.html#">Profile</a></li>
 									<li><a href="http://mal.uninett.no/div.html#">Messages</a></li>
-							</ul>
-					</div>
+
+					</ul>
+						</div>
+				</div>
+
 			</div>
 
-		</div>
 
 
-		<div class="row">
-			<div class="col-lg-12">
-			<div class="uninett-color-white uninett-padded gutter">
-							<ul class="nav nav-pills nav-justified">
+			<div class="row">
+				<div class="col-lg-12">
+				<div class="uninett-color-white uninett-padded gutter">
+								<ol class="breadcrumb">
+									<li><a href="http://mal.uninett.no/div.html#">Home</a></li>
+									<li><a href="http://mal.uninett.no/div.html#">Library</a></li>
+									<li class="active">Data</li>
+								</ol>
+						</div>
+				</div>
 
-								<li class="active"><a href="http://mal.uninett.no/div.html#">Inbox <span class="badge">42</span></a></li>
-								<li><a href="http://mal.uninett.no/div.html#">Profile</a></li>
-								<li><a href="http://mal.uninett.no/div.html#">Messages</a></li>
-
-				</ul>
-					</div>
 			</div>
 
-		</div>
+		 <div class="row">
+				<div class="col-lg-12">
+				<div class="uninett-color-white uninett-padded gutter">
+							 <ul class="pager">
+									<li class="previous disabled"><a href="http://mal.uninett.no/div.html#">← Eldre</a></li>
+									<li class="next"><a href="http://mal.uninett.no/div.html#">Nyere →</a></li>
+								</ul>
+						</div>
+				</div>
 
-
-
-		<div class="row">
-			<div class="col-lg-12">
-			<div class="uninett-color-white uninett-padded gutter">
-							<ol class="breadcrumb">
-								<li><a href="http://mal.uninett.no/div.html#">Home</a></li>
-								<li><a href="http://mal.uninett.no/div.html#">Library</a></li>
-								<li class="active">Data</li>
-							</ol>
-					</div>
 			</div>
 
-		</div>
 
-	 <div class="row">
-			<div class="col-lg-12">
-			<div class="uninett-color-white uninett-padded gutter">
-						 <ul class="pager">
-								<li class="previous disabled"><a href="http://mal.uninett.no/div.html#">← Eldre</a></li>
-								<li class="next"><a href="http://mal.uninett.no/div.html#">Nyere →</a></li>
-							</ul>
-					</div>
-			</div>
+		 <div class="row">
+				<div class="col-lg-12">
+				<div class="uninett-color-white uninett-padded gutter">
 
-		</div>
+								<div class="alert alert-success"><strong>Well done!</strong> You successfully <a href="http://mal.uninett.no/div.html#" class="alert-link">read this</a> important alert message.</div>
+								<div class="alert alert-info"><strong>Heads up!</strong> This alert needs your attention, but it's not super important.</div>
+								<div class="alert alert-warning"><strong>Warning!</strong> Best check yo self, you're not looking too good.</div>
 
-
-	 <div class="row">
-			<div class="col-lg-12">
-			<div class="uninett-color-white uninett-padded gutter">
-
-							<div class="alert alert-success"><strong>Well done!</strong> You successfully <a href="http://mal.uninett.no/div.html#" class="alert-link">read this</a> important alert message.</div>
-							<div class="alert alert-info"><strong>Heads up!</strong> This alert needs your attention, but it's not super important.</div>
-							<div class="alert alert-warning"><strong>Warning!</strong> Best check yo self, you're not looking too good.</div>
-
-						 <div class="alert alert-danger alert-dismissable">
-								<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-								<strong>Oh snap!</strong> Change a few things up and try <a href="http://mal.uninett.no/div.html#" class="alert-link">submitting</a> again.
-							</div>
-					</div>
-			</div>
-
-		</div>
-
-
-		<div class="row">
-			<div class="col-lg-12">
-			<div class="uninett-color-white uninett-padded gutter">
-						 <div class="progress">
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-									<span class="sr-only">40% Complete (success)</span>
+							 <div class="alert alert-danger alert-dismissable">
+									<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+									<strong>Oh snap!</strong> Change a few things up and try <a href="http://mal.uninett.no/div.html#" class="alert-link">submitting</a> again.
 								</div>
-							</div>
-							<div class="progress">
-								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-									<span class="sr-only">20% Complete</span>
+						</div>
+				</div>
+
+			</div>
+
+
+			<div class="row">
+				<div class="col-lg-12">
+				<div class="uninett-color-white uninett-padded gutter">
+							 <div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+										<span class="sr-only">40% Complete (success)</span>
+									</div>
 								</div>
-							</div>
-							<div class="progress progress-striped">
-								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-									<span class="sr-only">60% Complete (warning)</span>
+								<div class="progress">
+									<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+										<span class="sr-only">20% Complete</span>
+									</div>
 								</div>
-							</div>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-									<span class="sr-only">80% Complete</span>
+								<div class="progress progress-striped">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+										<span class="sr-only">60% Complete (warning)</span>
+									</div>
 								</div>
-							</div>
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+										<span class="sr-only">80% Complete</span>
+									</div>
+								</div>
+						</div>
+				</div>
+
+			</div>
+
+
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="uninett-color-white uninett-padded gutter">
+						<ul class="list-group">
+							<li class="list-group-item"><span class="badge">14</span> Cras justo odio</li>
+							<li class="list-group-item">Dapibus ac facilisis in</li>
+							<li class="list-group-item">Morbi leo risus</li>
+							<li class="list-group-item">Porta ac consectetur ac</li>
+							<li class="list-group-item">Vestibulum at eros</li>
+						</ul>
 					</div>
+
+				</div>
+
+
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="uninett-color-white uninett-padded gutter">
+							<div class="well well-lg">Look, I'm in a large well!</div>
+						</div>
+				</div>
+
 			</div>
 
-		</div>
 
-
-		<div class="row">
-			<div class="col-lg-12">
-			<div class="uninett-color-white uninett-padded gutter">
-				<ul class="list-group">
-					<li class="list-group-item"><span class="badge">14</span> Cras justo odio</li>
-					<li class="list-group-item">Dapibus ac facilisis in</li>
-					<li class="list-group-item">Morbi leo risus</li>
-					<li class="list-group-item">Porta ac consectetur ac</li>
-					<li class="list-group-item">Vestibulum at eros</li>
-				</ul>
-			</div>
 
 		</div>
+		<!-- /container -->
 
+		<!-- Bootstrap core JavaScript
+				================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/holder.js"></script>
 
-		<div class="row">
-			<div class="col-lg-12">
-			<div class="uninett-color-white uninett-padded gutter">
-						<div class="well well-lg">Look, I'm in a large well!</div>
-					</div>
-			</div>
 
 		</div>
-
-
-
-	</div>
-	<!-- /container -->
-
-	<!-- Bootstrap core JavaScript
-			================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="./div_files/jquery-1.10.2.min.js"></script>
-	<script src="./div_files/bootstrap.min.js"></script>
-	<script src="./div_files/holder.js"></script>
-
-
-</div></body></html>
+	</body>
+</html>
