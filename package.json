@@ -1,0 +1,27 @@
+{
+  "name": "uninett-bootstrap-theme",
+  "version": "1.0.1",
+  "description": "UNINETT Bootstrap Theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreassolberg/uninett-bootstrap-theme.git"
+  },
+  "keywords": [
+    "uninett",
+    "theme",
+    "bootstrap"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreassolberg/uninett-bootstrap-theme/issues"
+  },
+  "homepage": "https://github.com/andreassolberg/uninett-bootstrap-theme#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
